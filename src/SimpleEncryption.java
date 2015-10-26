@@ -8,9 +8,6 @@ public class SimpleEncryption {
 		String message,input;
 		Scanner myScanner = new Scanner(System.in);
 		
-		//System.out.println((int)'a');
-		//System.out.println(Integer.toHexString(32));
-		
 		System.out.println("Enter the String you want to encrypt: \n");
 		message = myScanner.nextLine();
 		System.out.println("Enter encryption key: \n");
@@ -35,8 +32,6 @@ public class SimpleEncryption {
 		String encryptedMessage=null;
 		StringBuilder temp = new StringBuilder();
 		for (int i=0; i<message.length(); i++){
-			//System.out.println((int)'a');
-			//System.out.println(Integer.toHexString(32));
 			//read each character
 			int currentChar = (int)message.charAt(i);
 			//shift and mod
